@@ -1,5 +1,5 @@
 {
-  "name": "angular-ui-tour",
+  "name": "angular-tour-flat",
   "version": "0.5.5",
   "main": "dist/angular-ui-tour.js",
   "ignore": [
