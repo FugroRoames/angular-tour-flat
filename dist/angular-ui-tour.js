@@ -1322,10 +1322,10 @@ angular.module('bm.uiTour').run(['$templateCache', function($templateCache) {
     "    <div class=\"popover-content tour-step-content\" ng-bind-html=\"tourStep.trustedContent\"></div>\n" +
     "    <div class=\"popover-navigation tour-step-navigation\">\n" +
     "        <div class=\"btn-group\">\n" +
-    "            <button class=\"btn btn-sm btn-default\" ng-if=\"tourStep.isPrev\" ng-click=\"tour.prev()\">&laquo; Prev</button>\n" +
-    "            <button class=\"btn btn-sm btn-default\" ng-if=\"tourStep.isNext\" ng-click=\"tour.next()\">Next &raquo;</button>\n" +
+    "            <button class=\"btn btn-sm btn-prev btn-default\" ng-if=\"tourStep.isPrev\" ng-click=\"tour.prev()\">&laquo; Prev</button>\n" +
+    "            <button class=\"btn btn-sm btn-next btn-default\" ng-if=\"tourStep.isNext\" ng-click=\"tour.next()\">Next &raquo;</button>\n" +
     "        </div>\n" +
-    "        <button class=\"btn btn-sm btn-default\" data-role=\"end\" ng-click=\"tour.end()\">End tour</button>\n" +
+    "        <button class=\"btn btn-sm btn-end-tour btn-default\" data-role=\"end\" ng-click=\"tour.end()\">End tour</button>\n" +
     "    </div>\n" +
     "</div>\n" +
     "");
