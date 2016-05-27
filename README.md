@@ -1,10 +1,8 @@
 # angular-tour-flat
-[![Bower Version][bower-image]][bower-url]
-[![Build Status][build-image]][build-url]
-[![Dependency Status][depstat-image]][depstat-url]
-[![Code Climate][gpa-image]][gpa-url]
 
 ## About
+
+This repo is forked from https://github.com/benmarch/angular-ui-tour.
 
 Angular UI Tour is a plugin that uses Angular UI Bootstrap's popovers to display a guided product tour. This was
 originally inspired by [Bootstrap Tour](http://www.bootstraptour.com) as [Angular Bootstrap Tour](http://github.com/benmarch/angular-bootstrap-tour),
