@@ -1,0 +1,10 @@
+<div>
+    <div class="popover-content tour-step-content" ng-bind-html="tourStep.trustedContent"></div>
+    <div class="popover-navigation tour-step-navigation">
+        <div class="btn-group">
+            <button class="btn btn-sm btn-default" ng-if="tourStep.isPrev" ng-click="tour.prev()">&laquo; Prev</button>
+            <button class="btn btn-sm btn-default" ng-if="tourStep.isNext" ng-click="tour.next()">Next &raquo;</button>
+        </div>
+        <button class="btn btn-sm btn-default" data-role="end" ng-click="tour.end()">End tour</button>
+    </div>
+</div>
